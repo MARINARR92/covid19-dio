@@ -11,6 +11,6 @@ const headers = {
       .then((response) => response.json())
   }
   
-  export default {
+  export default () => {
     getCountry
   }
